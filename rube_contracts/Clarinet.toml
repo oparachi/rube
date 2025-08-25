@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/token_integration.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.vote_result_calculation]
+path = 'contracts/vote_result_calculation.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
